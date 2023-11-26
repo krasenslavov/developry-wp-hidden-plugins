@@ -43,6 +43,12 @@ define( __NAMESPACE__ . '\DWPHP_PLUGIN_DIR_PATH', plugin_dir_path( __FILE__ ) );
 add_action( 'plugin_action_links', __NAMESPACE__ . '\dwpe_action_links', 10, 2 );
 
 function dwpe_action_links( $links, $file_path ) {
+	$active_plugins = get_option( 'active_plugins' );
+
+	if ( in_array( $file_path, $active_plugins, true ) ) {
+		return $links;
+	}
+
 	if ( DWPHP_PLUGIN_BASENAME === $file_path ) {
 		return $links;
 	}
