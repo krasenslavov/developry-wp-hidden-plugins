@@ -9,11 +9,11 @@
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: developry-wp-hidden-plugins
- * Domain Path: /lang
+ * Domain Path: /languages
  *
  * GitHub Plugin URI: https://github.com/krasenslavov/developry-wp-hidden-plugins.git
  *
- * Copyright 2018 - 2023 Developry Ltd. (email: contact@developry.com)
+ * Copyright 2018 - 2025 Developry Ltd. (email: contact@developry.com)
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as
