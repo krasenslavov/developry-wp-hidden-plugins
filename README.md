@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Developry — WP Hidden Plugins
 
 Hide and disable unused WordPress plugins for later use without deleting them.
@@ -104,6 +106,7 @@ This makes plugins invisible to WordPress without deleting any files. The plugin
 This plugin includes PHPUnit tests. To run them:
 
 1. Set up the WordPress test environment:
+
    ```bash
    bash bin/install-wp-tests.sh wordpress_test root '' localhost latest
    ```
@@ -114,6 +117,7 @@ This plugin includes PHPUnit tests. To run them:
    ```
 
 Or set the `WP_TESTS_DIR` environment variable:
+
 ```bash
 export WP_TESTS_DIR=/path/to/wordpress-tests-lib
 phpunit
@@ -145,12 +149,14 @@ Default: `false`
 ## Support
 
 For bugs, feature requests, or contributions, please visit:
+
 - **GitHub**: https://github.com/krasenslavov/developry-wp-hidden-plugins
 - **Issues**: https://github.com/krasenslavov/developry-wp-hidden-plugins/issues
 
 ## Author
 
 **Krasen Slavov**
+
 - Website: https://krasenslavov.com/
 - Company: https://developry.com/
 
@@ -159,7 +165,7 @@ For bugs, feature requests, or contributions, please visit:
 This plugin is licensed under the GPL v2 or later.
 
 ```
-Copyright 2018 - 2023 Developry Ltd.
+Copyright 2018 - 2025 Developry Ltd.
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as
@@ -173,7 +179,8 @@ GNU General Public License for more details.
 
 ## Changelog
 
-### 0.1.4
+### 1.0.0
+
 - Complete rewrite with security improvements
 - Added settings page for password configuration
 - Implemented proper error handling and logging
@@ -184,5 +191,6 @@ GNU General Public License for more details.
 - Added comprehensive documentation
 
 ### 0.1.0
+
 - Initial release
 - Basic hide/show functionality
