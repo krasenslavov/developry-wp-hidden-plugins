@@ -4,7 +4,7 @@
  * Plugin URI: https://developry.com/
  * Description: Hide and disable unused plugins for later use.
  * Author: Krasen Slavov
- * Version: 0.1.5
+ * Version: 1.0.0
  * Author URI: https://krasenslavov.com/
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html

@@ -29,3 +29,7 @@ wp-content/wp-cache-config.php
 *.log
 error_log
 debug.log
+
+# LLMs
+.claude/
+CLAUDE.md
