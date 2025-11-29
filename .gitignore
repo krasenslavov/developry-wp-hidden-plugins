@@ -1,0 +1,31 @@
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+/tests/coverage/
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-db/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+# Logs
+*.log
+error_log
+debug.log
